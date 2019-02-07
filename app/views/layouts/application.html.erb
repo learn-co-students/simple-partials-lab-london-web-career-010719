@@ -8,7 +8,15 @@
 </head>
 <body>
 
+<button><%= link_to "All Students", students_path %></button>
+<button><%= link_to "Create New Student", new_student_path %></button>
+<button><%= link_to "Classrooms", classrooms_path %></button>
+
+
+
 <%= yield %>
+
+
 
 </body>
 </html>
